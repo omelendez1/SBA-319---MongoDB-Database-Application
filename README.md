@@ -3,9 +3,11 @@
 A lightweight RESTful API built with **Node.js**, **Express**, and **MongoDB** (via **Mongoose**) to manage a book collection. It supports full CRUD operations, enforces data validation, and uses indexing for efficient querying.
 
 ---
+
 ## 🚀 Quick Start
 
 ### 🔧 Requirements
+
 - Node.js
 - MongoDB Atlas account
 - Git
@@ -37,20 +39,25 @@ npm start
 
 ## 📘 API Overview
 
-### 🔹 POST `/api/books`  
+### 🔹 POST `/api/books`
+
 Create a new book  
 **Required fields:** `title`, `author`, `genre`, `status`
 
-### 🔹 GET `/api/books`  
+### 🔹 GET `/api/books`
+
 List all books (optional filters: `title`, `author`)
 
-### 🔹 GET `/api/books/:id`  
+### 🔹 GET `/api/books/:id`
+
 Get book details by ID
 
-### 🔹 PUT `/api/books/:id`  
+### 🔹 PUT `/api/books/:id`
+
 Update an existing book
 
-### 🔹 DELETE `/api/books/:id`  
+### 🔹 DELETE `/api/books/:id`
+
 Remove a book by ID
 
 ---
@@ -76,7 +83,7 @@ Remove a book by ID
 book-tracker/
 ├── models/       # Mongoose schema
 ├── routes/       # CRUD route logic
-├── app.js        # Entry point  
+├── app.js        # Entry point
 ├── package.json
 └── README.md
 ```
@@ -88,4 +95,3 @@ book-tracker/
 - Pagination & sorting
 - User authentication
 - Front-end interface (React or EJS)
-
